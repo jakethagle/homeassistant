@@ -1,0 +1,10 @@
+upstairs:
+  name: Upstairs Family Room
+  entities:
+    - fan.living_room
+    - light.kitchen_ceiling
+    - light.kitchen_island
+    - light.kitchen
+    - light.living_room
+    - switch.living_room_fireplace
+  

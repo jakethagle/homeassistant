@@ -1,0 +1,3 @@
+platform: switch
+name: Bedroom
+entity_id: switch.bedroom

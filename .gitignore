@@ -1,0 +1,12 @@
+OZW_Log.txt
+deps
+home-assistant.log
+home-assistant_v2.db
+options.xml
+pyozw.sqlite
+tts
+zwcfg_0xdc5ebd92.xml
+zwscene.xml
+.HA_VERSION
+.cloud
+.storage
