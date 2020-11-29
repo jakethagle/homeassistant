@@ -1,0 +1,24 @@
+# Example for Z-Wave
+homekit:
+  auto_start: false
+  filter:
+    exclude_entities:
+      - person.jake
+      - binary_sensor.updater
+      - switch.garage_door
+      - automation.start_homekit
+      - switch.bedroom
+      - switch.living_room
+      - binary_sensor.garage_door
+automation: 
+  - alias: "Start HomeKit"
+    trigger:
+      - platform: event
+        event_type: zwave.network_ready
+      - platform: event
+        event_type: zwave.network_complete
+      - platform: event
+        event_type: zwave.network_complete_some_dead
+    action:
+      - service: homekit.start
+ 
