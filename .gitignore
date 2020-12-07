@@ -11,3 +11,4 @@ zwscene.xml
 .cloud
 .storage
 secrets.yaml
+custom_components/*
