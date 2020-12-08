@@ -1,0 +1,4 @@
+platform: circadian_lighting
+lights_ct:
+  - light.kitchen_ceiling
+  - light.kitchen_island
