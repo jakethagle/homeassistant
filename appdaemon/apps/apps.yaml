@@ -2,3 +2,8 @@
 hello_world:
   module: hello
   class: HelloWorld
+garage:
+  module: garage
+  class: Garage
+  switch: switch.garage_door
+  delay: 5
